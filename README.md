@@ -107,7 +107,7 @@ Create `.env` file:
 ```env
 PORT=5001
 ACCESS_TOKEN_SECRET=your_jwt_secret_key
-CONNECTION_STRING=mongodb+srv://username:password@cluster.mongodb.net/mycontacts?retryWrites=true&w=majority
+CONNECTION_STRING=
 ```
 
 ### 3️⃣ Frontend Setup
