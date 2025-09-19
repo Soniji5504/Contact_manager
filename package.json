@@ -1,0 +1,18 @@
+{
+  "name": "crud-application",
+  "version": "1.0.0",
+  "description": "Full-stack CRUD application with Next.js frontend and Express backend",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd mycontacts-backend && npm run dev",
+    "frontend": "cd mycontact-frontend && npm run dev",
+    "install-all": "cd mycontacts-backend && npm install && cd ../mycontact-frontend && npm install",
+    "build": "cd mycontact-frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}
